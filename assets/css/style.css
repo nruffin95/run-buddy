@@ -143,7 +143,7 @@ header {
 /* HERO STYLES END */
 
 .intro {
-  text-align: center;
+
 }
 
 .intro h2 {
@@ -157,20 +157,21 @@ header {
   width: 80%;
   font-size: 20px;
   margin: 0 auto;
+  text-align: center
 }
 
 .steps {
-  text-align: center;
   background: #fce138;
 }
 
 .section-title {
+  text-align: center;
+  margin: 0 auto 35px auto;
+  width: 50%;
   font-size: 55px;
   color: #024e76;
-  margin-bottom: 35px;
-  padding: 0 100px 20px 100px;
-  display: inline-block;
   border-bottom: 3px solid;
+  padding-bottom: 20px;
 }
 
 .primary-border {
@@ -206,7 +207,7 @@ header {
 }
 
 .trainers {
-  text-align: center;
+
 }
 
 .trainer {
@@ -236,6 +237,10 @@ header {
   text-align: right;
 }
 
+.flex-row {
+  display: flex;
+}
+
 .trainer-bio h3 {
   font-size: 32px;
   margin-bottom: 8px;
@@ -253,7 +258,6 @@ header {
 }
 
 .contact {
-  text-align: center;
   background: #024e76;
 }
 
